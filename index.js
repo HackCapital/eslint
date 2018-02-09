@@ -9,9 +9,9 @@
  *   Add a comment: // eslint-disable-line
  */
 
-
 module.exports = {
   extends: "airbnb-base",
+  parser: "babel-eslint",
   env: {
     es6: true, // this automatically sets the ecmaVersion parser option to 6
     browser: true,

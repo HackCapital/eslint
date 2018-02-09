@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-hackcapital-base",
+  "name": "eslint-config-hackcapital",
   "version": "1.0.0",
   "description": "HackCapital's base ESLint Config",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "license": "ISC",
   "peerDependencies": {
     "eslint": ">= 3"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.1.0"
   }
 }
