@@ -10,8 +10,8 @@
  */
 
 module.exports = {
-  extends: "airbnb-base",
-  parser: "babel-eslint",
+  extends: 'airbnb-base',
+  parser: 'babel-eslint',
   env: {
     es6: true, // this automatically sets the ecmaVersion parser option to 6
     browser: true,
@@ -28,40 +28,40 @@ module.exports = {
   ],
   rules: {
     // Overly restrictive
-    "arrow-body-style": "off",
+    'arrow-body-style': 'off',
+
+    // Overly restrictive
+    'class-methods-use-this': 'off',
+
+    // Overly restrictive
+    'consistent-return': 'off',
+
+    // Advantage arguably doesn't outweigh the costs
+    'func-names': ['off', 'as-needed'],
 
     // JS seems to be moving away from export default as a best-practice
-    "import/prefer-default-export": "off",
+    'import/prefer-default-export': 'off',
+
+    // Adds friction to debugging
+    'no-console': 'off',
 
     // Overly restrictive
-    "no-param-reassign": "off",
+    'no-param-reassign': 'off',
 
     // Little advantage
-    "no-plusplus": "off",
+    'no-plusplus': 'off',
 
     // Overly restrictive
-    "no-underscore-dangle": "off",
+    'no-underscore-dangle': 'off',
+
+    // Un-used arguments can help remind us of function signatures
+    'no-unused-vars': ['error', { 'args': 'none' }],
+
+    // Disagree with convention
+    'padded-blocks': 'off',
 
     // Object destructuring = mandatory
     // Array destructuring = optional
-    "prefer-destructuring": ["error", {"object": true, "array": false}],
-
-    // Overly restrictive
-    "class-methods-use-this": "off",
-
-    // Overly restrictive
-    "consistent-return": "off",
-
-    // Adds friction to debugging
-    "no-console": "off",
-
-    // Disagree with convention
-    "padded-blocks": "off",
-
-    // Advantage arguably doesn't outweigh the costs
-    "func-names": ["off", "as-needed"],
-
-    // Un-used arguments can help remind us of function signatures
-    "no-unused-vars": ["error", { "args": "none" }]
+    'prefer-destructuring': ['error', {'object': true, 'array': false}],
   }
 }
