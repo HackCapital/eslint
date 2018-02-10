@@ -4,6 +4,6 @@
 
 ```
 {
-  extends: "hackcapital-base"
+  extends: "hackcapital"
 }
 ```
