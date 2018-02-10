@@ -1,6 +1,6 @@
 {
   "name": "@cto.ai/eslint-config-hackcapital",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HackCapital's base ESLint Config",
   "main": "index.js",
   "scripts": {
