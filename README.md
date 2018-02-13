@@ -1,4 +1,4 @@
-# eslint-config-hackcapital-base
+# @cto.ai/eslint-config-base
 
 ## Usage
 
