@@ -2,10 +2,10 @@
 
 ## Usage
 
-Your .eslintrc.js can extend hackcapital, ie.
+Your .eslintrc.js can extend this, ie.
 ```
 {
-  extends: "hackcapital"
+  extends: '@cto.ai/base'
 }
 ```
 
